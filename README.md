@@ -1,12 +1,101 @@
-# React + Vite
+# 🌐 React Theme Switcher Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple front-end React application with **Bootstrap 5** and **custom CSS**, implementing a light and dark theme switcher. The application is modular, with separate components for **Home**, **About**, and **Navbar**. 
 
-Currently, two official plugins are available:
+Deployed live and mobile-responsive!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Light Theme | 
+|:------------|
+| ![Light Theme](https://res.cloudinary.com/dblomc9cr/image/upload/v1750930065/Screenshot_2025-06-26_141302_zculmg.png) |
+
+| ![Light Theme](https://res.cloudinary.com/dblomc9cr/image/upload/v1750930257/Screenshot_2025-06-26_141335_nr0kdy.png) |
+
+| Dark Theme |
+|:------------|
+| ![Dark Theme](https://res.cloudinary.com/dblomc9cr/image/upload/v1750929820/Screenshot_2025-06-26_145217_vnzjxf.png) |
+
+| ![Dark Theme](https://res.cloudinary.com/dblomc9cr/image/upload/v1750930257/Screenshot_2025-06-26_141417_w5w4rd.png) |
+
+---
+
+## 🚀 Live Demo
+
+👉 [Check out the live demo here](https://blocklyco-mounikalingala.netlify.app/)
+
+---
+
+## 📂 Project Structure
+
+src/
+│
+├── components/
+│ ├── Home.jsx
+│ ├── About.jsx
+│ └── Navbar.jsx
+│
+├── App.jsx
+├── index.css
+└── main.jsx
+
+
+---
+
+## 🎨 Features
+
+- 🌗 **Dark and Light Theme Toggle**
+- 📱 Fully responsive layout with **Bootstrap 5**
+- 📚 Clean modular structure with separate React components
+- 🎨 Custom CSS for additional styling
+- ⚡ Fast build and deploy with **Vite**
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **Vite**
+- **Bootstrap 5**
+- **Custom CSS**
+
+---
+
+## 📦 Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/mounikalingala/blocky.co-mounika.git
+
+   cd blocky.co-mounika
+
+### Install dependencies
+
+`npm install`
+
+### Start the development server
+
+`npm run dev `
+
+### Build for production
+
+`npm run build`
+
+# ✨ Future Enhancements
+Add routing using react-router-dom
+
+Include animations and transitions for theme switching
+
+Expand with additional pages and features
+
+# 🙌 Acknowledgements
+React
+
+Bootstrap 5
+
+Vite
+
+
+
