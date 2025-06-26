@@ -1,6 +1,5 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import image from "../assets/image.png"
 import { TiSocialInstagram } from "react-icons/ti";
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 import { PiGithubLogoFill } from "react-icons/pi";
