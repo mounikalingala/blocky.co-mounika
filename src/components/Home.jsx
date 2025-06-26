@@ -39,7 +39,7 @@ const Home = ({ darkTheme, setDarkTheme }) => {
                 </div>
                 <div className='order-1 order-lg-2 mt-0'
                 >
-                    <img src={image} alt="" style={{ width: '30rem' }} />
+                    <img src="https://res.cloudinary.com/dblomc9cr/image/upload/v1750925829/Image_ucsgji.png" alt="" style={{ width: '30rem' }} />
                 </div>
             </div>
             <div className={`${darkTheme ? 'text-white' : "text-dark"} d-flex justify-content-between `}>

@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
 import handImage from '../assets/handImg.png'
-import blob1 from '../assets/blob.svg'
 import yellow1 from '../assets/Vector 3.png'
 import yellow2 from '../assets/Vector 4.png'
 import gray from '../assets/Vector 5.png'
