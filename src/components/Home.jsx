@@ -13,7 +13,7 @@ const Home = ({ darkTheme, setDarkTheme }) => {
     const border = darkTheme ? "border-white" : "border-dark"
     const underlineColor = darkTheme ? "text-decoration-color-white" : "text-decoration-color-black"
     return (
-        <div className={`${darkTheme ? "text-white" : "text-dark"} p-4`} >
+        <div className={`${darkTheme ? "text-white" : "text-dark"} p-2`} >
             <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
             <div className='d-flex flex-column  flex-lg-row justify-content-between px-5 mt-5' style={{}}>
                 <div className='d-flex order-2 order-lg-1 flex-column text-start mt-5 ms-5'>
@@ -43,7 +43,7 @@ const Home = ({ darkTheme, setDarkTheme }) => {
                 </div>
             </div>
             <div className={`${darkTheme ? 'text-white' : "text-dark"} d-flex justify-content-between `}>
-                <div className='d-grid gap-2 d-flex flex-column move-up'>
+                <div className='d-grid gap-2 d-flex flex-column move-up ms-3'>
                     <div className='rounded-circle border border-2 border-dark p-2 d-flex '>
                         <FaFacebookF size={20} /></div>
                     <div className={`rounded-circle border border-2 ${border} p-2 d-flex `}><TiSocialInstagram size={20} /></div>

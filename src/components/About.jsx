@@ -15,7 +15,7 @@ const About = ({ darkTheme, setDarkTheme }) => {
     const underlineColor = darkTheme ? "border-white" : "border-dark"
 
     return (
-        <div className='p-4' >
+        <div className='p-2' >
             <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
             <div className='d-flex justify-content-start'>
                 <div className='bg-image d-flex' style={{ left: "-260px", position: "relative", }}  >
@@ -36,7 +36,7 @@ const About = ({ darkTheme, setDarkTheme }) => {
                     <img src={yellow1} alt="" style={{ position: "relative", right: 0, height: '500px' }} />
                 </div>
             </div>
-            <div className={`${darkTheme ? 'text-white border-white' : "text-dark border-dark"} d-flex justify-content-between `} style={{ marginTop: "8rem" }}>
+            <div className={`${darkTheme ? 'text-white border-white' : "text-dark border-dark"} d-flex justify-content-between ms-2 `} style={{ marginTop: "8rem" }}>
                 <div className='d-grid gap-2 d-flex flex-column move-up'>
                     <div className={`rounded-circle border border-2 ${underlineColor} p-2 d-flex `}>
                         <FaFacebookF size={20} /></div>
