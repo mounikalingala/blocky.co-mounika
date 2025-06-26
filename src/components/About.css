@@ -13,9 +13,6 @@
     width: 45px,
 }
 
-@media (min-width: 992px) {
-    .image {}
-}
 
 .text-width {
     width: full;
