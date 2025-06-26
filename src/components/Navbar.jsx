@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/logo.svg"
+import logo from "../assets/Logo.svg"
 import moon from "../assets/Moon Black.svg"
 import light from "../assets/Group 15.png"
 import { MdLightMode } from "react-icons/md";
@@ -17,7 +17,7 @@ const Navbar = ({ darkTheme, setDarkTheme }) => {
             }`}>
             <div className="container-fluid d-flex justify-content-between">
                 <div className='d-flex'>
-                    {darkTheme ? <img src={light} alt='' /> : <img src={logo} alt='' />}
+                    {darkTheme ? <img src={light} alt='' style={{ width: "40px", height: "40px", marginTop: "18px" }} /> : <img src={logo} alt='' />}
 
                     <h1 className='m-4 fw-bold fs-4 mt-4'>ANISH KUMAR SINHA</h1>
                 </div>
